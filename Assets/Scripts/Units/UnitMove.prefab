@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1467077219413323917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7367611915158466550}
+  - component: {fileID: 6960423613221526834}
+  m_Layer: 0
+  m_Name: UnitMove
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7367611915158466550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467077219413323917}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6960423613221526834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467077219413323917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9477b89ae728df42a09d8850e550e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Canvas: {fileID: 11400000, guid: 09b3969a30bc0d64fa606e43b73a302e, type: 2}
+  CanSelectObjects: {fileID: 11400000, guid: aff749fd3965e3a44b1ea42743954fc5, type: 2}
+  ActionReference: {fileID: 3618135044140746840, guid: e229c86e5c660674f85a43ee57be720b, type: 3}
+  SelectedObject: {fileID: 11400000, guid: 5a569aac89827d748af1470a0e1b0657, type: 2}
+  MovePoint: {fileID: 11400000, guid: 6545d5e0c4396e64ebd2a24bc07b9d9f, type: 2}
+  ArrowPrefab: {fileID: 4827774654649218164, guid: 33b2d8c5b131dd641973ecaf6fc07e04, type: 3}

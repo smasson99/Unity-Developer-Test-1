@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 78a19df51cc2b81448cddc3adc1e8e73
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - IsVisible: {instanceID: 0}
+  - Body: {instanceID: 0}
+  - CanUpdateCameraLook: {fileID: 11400000, guid: a43c6c31bfa6aea4cb0678ce7c2cae56, type: 2}
+  - CanPlayerMove: {fileID: 11400000, guid: a05bd2b2a78c1dd469794cf28f0eb094, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
